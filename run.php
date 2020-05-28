@@ -32,7 +32,7 @@ if($cookie){
 			$targets 	= explode("\n", str_replace("\r", "", $targets));
 			$targets 	= array($targets)[0];
 			foreach($targets as $target){
-				$komens		= file_get_contents('./data/storyAnswer.txt');
+				$komens		= file_get_contents('./data/'.$answerFile);
 				$komen		= explode("\n", str_replace("\r", "", $komens));
 				$komen		= array($komen)[0];
 				//
@@ -40,20 +40,20 @@ if($cookie){
 				$today		= explode("\n", str_replace("\r", "", $todays));
 				$today		= array($today)[0];
 				//
-				$proxy		= file_get_contents('https://veonpanel.com/api/panel/proxy?key=FUCKIG');
-				$proxy		= json_decode($proxy, true);
+				//$proxy		= file_get_contents('https://veonpanel.com/api/panel/proxy?key=MEMEF');
+				//$proxy		= json_decode($proxy, true);
 				//$prox['ip']			= $proxy['data']['proxy'];
 				$prox['ip']			= 0;
 				$prox['user']		= 0;
 				$prox['is_socks5']	= 0;
 				//
 				echo "[~] Get followers of ".$target."\n";
-				echo "[~] Proxy ".$prox['ip']."\n";
+				//echo "[~] Proxy ".$prox['ip']."\n";
 				$targetid	= json_decode(request(1, $useragent, 'users/'.$target.'/usernameinfo/', $cookie, 0, array(), $prox['ip'], $prox['user'], $prox['is_socks5'])[1], 1)['user']['pk'];
 				$gettarget	= proccess(1, $useragent, 'users/'.$targetid.'/info', $cookie, 0, array(), $prox['ip'], $prox['user'], $prox['is_socks5']);
 				$gettarget	= json_decode($gettarget[1], true);
 				echo "[~] [Media : ".$gettarget['user']['media_count']."] [Follower : ".$gettarget['user']['follower_count']."] [Following : ".$gettarget['user']['following_count']."]\n";
-				$jumlah		= 25;
+				$jumlah		= $countTarget;
 				if(!is_numeric($jumlah)){
 					$limit = 1;
 				} elseif ($jumlah > ($gettarget['user']['follower_count'] - 1)){
@@ -140,22 +140,22 @@ if($cookie){
 								saveData('./data/storyData.txt', $stories['reels']);
 								saveData('./data/daily/'.date('d-m-Y').'.txt', $stories['reels']);
 							}
-							sleep(1);
+							sleep($sleep_1);
 						}
 					endforeach;
-					echo "[~] ".date('d-m-Y H:i:s')." - Sleep for 3 second to bypass instagram limit\n"; sleep(3);
+					echo "[~] ".date('d-m-Y H:i:s')." - Sleep for ".$sleep_2." second to bypass instagram limit\n"; sleep($sleep_2);
 				endfor;
 				echo "[~] ".count($reels)." story from ".$target." collected\n";
 				echo "[~] ".count($reels_suc)." story from ".$target." marked as seen\n";
 				echo "[~] ".count($today)." story reacted today\n";
-				echo "[~] ".date('d-m-Y H:i:s')." - Sleep for 20 second to bypass instagram limit\n";
-				echo "[~] "; for($x = 0; $x <= 4; $x++){ echo "========"; sleep(4); } echo "\n\n";
+				echo "[~] ".date('d-m-Y H:i:s')." - Sleep for 30 second to bypass instagram limit\n";
+				echo "[~] "; for($x = 0; $x <= 4; $x++){ echo "========"; sleep(6); } echo "\n\n";
 			}
 		} while($loop == true);
 	} else {
 		echo "[!] Error : ".json_encode($getakun)."\n";
 	}
 } else {
-	echo "[!] Please login";
+	echo "[!] Please login\n";
 }
 ?>
