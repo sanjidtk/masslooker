@@ -93,7 +93,7 @@ if($ext->status == 'ok'){
 	        }
 	    }
     } else {
-    	echo "[!] Failed sent verification code - ".var_dump($_SESSION)."\n";
+    	echo "[!] Failed sent verification code ".$cekpoint." - ".var_dump($_SESSION)."\n";
     	echo "[!] Exit...\n";
     	exit();
     }
