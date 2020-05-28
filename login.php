@@ -26,7 +26,7 @@ $login     = proccess(1, $useragent, 'accounts/login/', 0, hook('{"device_id":"'
 ));
 $ext		= json_decode($login[1]);
 preg_match('#set-cookie: csrftoken=([^;]+)#i', $login[0], $token);
-preg_match_all('%Set-Cookie: (.*?);%', $login[0], $d);
+preg_match_all('%set-cookie: (.*?);%', $login[0], $d);
 $cookie 	= '';
 for($o = 0; $o < count($d[0]); $o++){
     $cookie .= $d[1][$o] . ";";
