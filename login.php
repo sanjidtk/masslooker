@@ -74,7 +74,7 @@ if($ext->status == 'ok'){
     	$data               = 'security_code='.$kode;
     	$cekpoint           = cekpoint($challenge_url, $data, $challenge_csrf, $challenge_cookie, $challenge_ua);
     	if(strpos($cekpoint, 'status": "ok"') !== false){
-	        preg_match_all('%Set-Cookie: (.*?);%', $cekpoint, $d);
+	        preg_match_all('%set-cookie: (.*?);%', $cekpoint, $d);
 	        $cookie     = '';
 	        for($o = 0; $o < count($d[0]); $o++){
 	        	$cookie .= $d[1][$o] . ";";
