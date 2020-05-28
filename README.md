@@ -9,6 +9,7 @@ StoryLoop it’s a console-based script created for massvoting (mass poll voting
   - Views Stories
   - Question Answer
   - Poll Voting
+  - Emoji Slider
 
 ### Installation
 
