@@ -68,6 +68,10 @@ if($cookie){
 					if($next == true){ $parameters = '?max_id='.$next_id.''; } else { $parameters = ''; }
 					$req        = proccess(1, $useragent, 'friendships/'.$targetid.'/followers/'.$parameters, $cookie, 0, array(), $prox['ip'], $prox['user'], $prox['is_socks5']);
 					$req        = json_decode($req[1], true);
+					if($req['status'] !== 'ok'){
+						var_dump($req);
+						exit();
+					}
 					for($i = 0; $i < count($req['users']); $i++):
 						if($req['users'][$i]['is_private'] == false):
 							if($req['users'][$i]['latest_reel_media']):
