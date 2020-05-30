@@ -11,7 +11,7 @@ StoryLoop it’s a console-based script created for massvoting (mass poll voting
   - Poll Voting
   - Emoji Slider
 
-### Installation
+# Installation
 
 StoryLoop requires [PHP](https://www.php.net/) 5.6 to run.
 
