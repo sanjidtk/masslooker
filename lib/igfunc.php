@@ -235,7 +235,7 @@ function cekpoint($url, $data, $csrf, $cookies, $ua){
     return $b;
 }
 
-function generate_useragent($sign_version = '137.0.0.31.123')
+function generate_useragent($sign_version = '107.0.0.27.121')
 {
     $resolusi = array(
         '1080x1776',
