@@ -12,7 +12,13 @@ Mass Looker ,it’s a console-based script created for massvoting (mass poll vot
   - Question Answer
   - Poll Voting
   - Emoji Slider
-
+  
+# Uses 
+   - Unlimited real followers
+   - Unlimited real likes
+   - Increasing profile visits
+   - Incredible reach
+   
 # Installation
 
 MassLooker requires [PHP](https://www.php.net/) 5.6 to run.
