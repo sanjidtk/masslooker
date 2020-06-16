@@ -6,7 +6,7 @@ echo "
         🅼🅰🆂🆂 🅻🅾🅾🅺🅴🆁 
 	
 	$---------$--------$
-	1.Auto story views without Action block
+	1.Mass story views without action block
 	2.Reacts to stories
 	3.Auto Poll reactions
 	4.Auto Question Ansewring
@@ -15,7 +15,7 @@ echo "
 	\n";
 echo " $$$$$$$$$$ Auto  Story Viewer by Photolooz $$$$$$$$$$$$$$$$$$   \n";
 echo "  $-----$----$ Made by 🤑 @mohsanjid 🤑 $----$---$  \n\n";
-echo "  Subscribe my Youtube channel $ PhotoLooz $ for more videos ---😍
+echo " Subscribe my Youtube channel $ PhotoLooz $ for more videos--😍
  \n\n";
 echo "[?] Input your instagram username : ";
 $userig    = trim(fgets(STDIN, 1024));
