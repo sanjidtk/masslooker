@@ -6,16 +6,21 @@ $useragent 		= $cookieData[1]; // Useragent Instagram
 $loop			= true;
 //feed/user/{$userId}/story/
 echo "
- _____ _                   _                       
-/  ___| |                 | |                      
-\ `--.| |_ ___  _ __ _   _| |     ___   ___  _ __  
- `--. \ __/ _ \| '__| | | | |    / _ \ / _ \| '_ \ 
-/\__/ / || (_) | |  | |_| | |___| (_) | (_) | |_) |
-\____/ \__\___/|_|   \__, \_____/\___/ \___/| .__/ 
-                      __/ |                 | |    
-                     |___/                  |_|    \n";
-echo "[-] ============ Auto Story Viewer by Photolooz ============ [-]\n";
-echo "[-] =========== Made by @mohsanjid =========== [-]\n\n";
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        🅼🅰🆂🆂 🅻🅾🅾🅺🅴🆁 
+	$---------$--------$
+	1.Auto story views without Action block
+	2.Reacts to stories
+	3.Auto Poll reactions
+	4.Auto Question Ansewring
+	$---------$--------$
+	
+	\n";
+echo "[o] $$$$$$$$$$ Auto  Story Viewer by Photolooz $$$$$$$$$$$$$$$$$$ [o]\n";
+echo "[o] $----$----$ Made by 🤑 @mohsanjid 🤑 $----$---$[o]\n\n";
+echo "[o]  Subscribe my Youtube channel $ PhotoLooz $ for more videos ---😍
+ [o]\n\n";
+
 if($cookie){
 	$getakun	= proccess(1, $useragent, 'accounts/current_user/', $cookie);
 	$getakun	= json_decode($getakun[1], true);
