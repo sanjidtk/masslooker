@@ -4,6 +4,7 @@ echo "
 
  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
         🅼🅰🆂🆂 🅻🅾🅾🅺🅴🆁 
+	
 	$---------$--------$
 	1.Auto story views without Action block
 	2.Reacts to stories
@@ -12,10 +13,10 @@ echo "
 	$---------$--------$
 	
 	\n";
-echo "[o] $$$$$$$$$$ Auto  Story Viewer by Photolooz $$$$$$$$$$$$$$$$$$ [o]\n";
-echo "[o] $----$----$ Made by 🤑 @mohsanjid 🤑 $----$---$[o]\n\n";
-echo "[o]  Subscribe my Youtube channel $ PhotoLooz $ for more videos ---😍
- [o]\n\n";
+echo " $$$$$$$$$$ Auto  Story Viewer by Photolooz $$$$$$$$$$$$$$$$$$   \n";
+echo "  $-----$----$ Made by 🤑 @mohsanjid 🤑 $----$---$  \n\n";
+echo "  Subscribe my Youtube channel $ PhotoLooz $ for more videos ---😍
+ \n\n";
 echo "[?] Input your instagram username : ";
 $userig    = trim(fgets(STDIN, 1024));
 echo "[?] Input your instagram password : ";
