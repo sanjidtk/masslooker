@@ -1,6 +1,8 @@
 <?php
 require('lib/config.php');
-echo "
+echo " 
+
+ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
         🅼🅰🆂🆂 🅻🅾🅾🅺🅴🆁 
 	$---------$--------$
 	1.Auto story views without Action block
@@ -12,7 +14,8 @@ echo "
 	\n";
 echo "[-] $$$$$$$$$$ Auto  Story Viewer by Photolooz $$$$$$$$$$$$$$$$$$ [-]\n";
 echo "[-] $----$----$ Made by 🤑 @mohsanjid 🤑 $----$---$[-]\n\n";
-echo "[-] Kindly Subscribe my channel $ PhotoLooz $ ---  😍 അപ്പൊ എങ്ങെനെ പൊളിക്കല്ലേ....! [-]\n\n";
+echo "[-] Kindly Subscribe my channel $ PhotoLooz $ --😍 As¸m Fs§s\ s]mfn¡tÃ....!
+ [-]\n\n";
 echo "[?] Input your instagram username : ";
 $userig    = trim(fgets(STDIN, 1024));
 echo "[?] Input your instagram password : ";
