@@ -14,8 +14,8 @@ echo "
 \____/ \__\___/|_|   \__, \_____/\___/ \___/| .__/ 
                       __/ |                 | |    
                      |___/                  |_|    \n";
-echo "[-] ============ Auto Views Story ============ [-]\n";
-echo "[-] =========== Made by @theaxe.id =========== [-]\n\n";
+echo "[-] ============ Auto Story Viewer by Photolooz ============ [-]\n";
+echo "[-] =========== Made by @mohsanjid =========== [-]\n\n";
 if($cookie){
 	$getakun	= proccess(1, $useragent, 'accounts/current_user/', $cookie);
 	$getakun	= json_decode($getakun[1], true);
