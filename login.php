@@ -1,9 +1,18 @@
 <?php
 require('lib/config.php');
 echo "
-        🅼🅰🆂🆂 🅻🅾🅾🅺🅴🆁              \n";
-echo "[-] ============ Auto  Story Viewer by Photolooz ============ [-]\n";
-echo "[-] =========== Made by @mohsanjid =========== [-]\n\n";
+        🅼🅰🆂🆂 🅻🅾🅾🅺🅴🆁 
+	$---------$--------$
+	1.Auto story views without Action block
+	2.Reacts to stories
+	3.Auto Poll reactions
+	4.Auto Question Ansewring
+	$---------$--------$
+	
+	\n";
+echo "[-] $$$$$$$$$$ Auto  Story Viewer by Photolooz $$$$$$$$$$$$$$$$$$ [-]\n";
+echo "[-] $----$----$ Made by 🤑 @mohsanjid 🤑 $----$---$[-]\n\n";
+echo "[-] Kindly Subscribe my channel $ PhotoLooz $ ---  😍 അപ്പൊ എങ്ങെനെ പൊളിക്കല്ലേ....! [-]\n\n";
 echo "[?] Input your instagram username : ";
 $userig    = trim(fgets(STDIN, 1024));
 echo "[?] Input your instagram password : ";
