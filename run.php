@@ -17,9 +17,9 @@ echo "
 	
 	\n";
 echo "[o] $$$$$$$$$$ Auto  Story Viewer by Photolooz $$$$$$$$$$$$$$$$$$ [o]\n";
-echo "[o] $----$----$ Made by 🤑 @mohsanjid 🤑 $----$---$[o]\n\n";
-echo "[o]  Subscribe my Youtube channel $ PhotoLooz $ for more videos ---😍
- [o]\n\n";
+echo "  $----$----$ Made by 🤑 @mohsanjid 🤑 $----$---$   \n\n";
+echo "   Subscribe my Youtube channel $ PhotoLooz $ for more videos ---😍
+ \n\n";
 
 if($cookie){
 	$getakun	= proccess(1, $useragent, 'accounts/current_user/', $cookie);
