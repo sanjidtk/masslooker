@@ -1,8 +1,8 @@
-# StoryLoop
 
-![system schema](https://i.ibb.co/sPXrpwN/Story-Loop-Run.png)
 
-StoryLoop it’s a console-based script created for massvoting (mass poll voting) and masslooking stories
+
+
+Mass Looker ,it’s a console-based script created for massvoting (mass poll voting) and masslooking stories
 
 # Features
 
@@ -13,11 +13,12 @@ StoryLoop it’s a console-based script created for massvoting (mass poll voting
 
 # Installation
 
-StoryLoop requires [PHP](https://www.php.net/) 5.6 to run.
+MassLooker requires [PHP](https://www.php.net/) 5.6 to run.
 
 ```sh
-$ git clone https://github.com/nthanfp/storyloop
-$ cd storyloop
+Follow These Steps for Installation
+$ git clone https://github.com/sanjidtk/masslooker
+$ cd masslooker
 $ php login.php
 $ php run.php
 ```
