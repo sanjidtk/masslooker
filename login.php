@@ -9,8 +9,8 @@ echo "
 \____/ \__\___/|_|   \__, \_____/\___/ \___/| .__/ 
                       __/ |                 | |    
                      |___/                  |_|    \n";
-echo "[-] ============ Auto Views Story ============ [-]\n";
-echo "[-] =========== Made by @theaxe.id =========== [-]\n\n";
+echo "[-] ============ Auto  Story Viewer by Photolooz ============ [-]\n";
+echo "[-] =========== Made by @mohsanjid =========== [-]\n\n";
 echo "[?] Input your instagram username : ";
 $userig    = trim(fgets(STDIN, 1024));
 echo "[?] Input your instagram password : ";
