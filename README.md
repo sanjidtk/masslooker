@@ -5,7 +5,7 @@
 Mass Looker ,it’s a console-based script created for massvoting (mass poll voting) and masslooking stories
 
 # Features
- Made by @mohsanjid Follow on Instagram
+ Made by @mohsanjid Follow on Instagram \n
  Subscribe Youtube Channel for more videos www.youtube.com/c/PhotoLooz
 
   - Views Stories
