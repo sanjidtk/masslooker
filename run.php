@@ -151,7 +151,7 @@ if($cookie){
 								saveData('./data/storyData.txt', $stories['reels']);
 								saveData('./data/daily/'.date('d-m-Y').'.txt', $stories['reels']);
 							}
-							$new_run++
+							$new_run++;
 							sleep($sleep_1);
 						}
 					endforeach;
