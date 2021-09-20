@@ -160,14 +160,14 @@ if($cookie){
 				echo "[~] ".count($reels)." story from ".$target." collected\n";
 				echo "[~] ".count($reels_suc)." story from ".$target." marked as seen\n";
 				echo "[~] ".count($today)." story reacted today\n";
-				echo "[~] ".date('d-m-Y H:i:s')." - Sleep for 30 second to bypass instagram limit\n";
-				echo "[~] "; for($x = 0; $x <= 4; $x++){ echo "========"; sleep(6); } echo "\n\n";
+				echo "[~] ".date('d-m-Y H:i:s')." - Sleep for 150 second to bypass instagram limit\n";
+				echo "[~] "; for($x = 0; $x <= 4; $x++){ echo "========"; sleep(30); } echo "\n\n";
 			}
-			if(count($today) > '1000'){
+			if(count($today) > '19000'){
 				echo "[~] ".count($today)." story reacted today\n";
-				echo "[~] Limit instagram api 1000 seen/hr\n";
-				echo "[~] Sleep for 1 hour to bypass instagram limit\n";
-				sleep(3600);
+				echo "[~] Limit instagram api 2000 seen/day\n";
+				echo "[~] Sleep for 20 hour to bypass instagram limit\n";
+				sleep(72000);
 				echo "[~] End sleep...\n\n";
 			}
 		} while($loop == true);
